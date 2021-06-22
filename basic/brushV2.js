@@ -1,5 +1,4 @@
 let r, g, b;
-let on = false;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -28,6 +27,4 @@ function draw() {
   }
 
   rect(0, 0, 30, 30, 10);
-
-  on = !on;
 }
